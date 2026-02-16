@@ -1,5 +1,5 @@
 from monprojet.logging_conf import setup_logging
-from squelette.src.monprojet.core.app import run
+from monprojet.core.app import run
 
 
 def main() -> int:
@@ -7,4 +7,4 @@ def main() -> int:
     run()
     return 0
 
-print("Démarrage de l'application")
+print("Hello world")
